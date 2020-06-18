@@ -1,0 +1,71 @@
+body{
+	font-family: Arial, sans-serif;
+	margin: 0px;
+}
+li a{
+  display:block;
+  color: black;
+}
+a:link, a:visited{
+  display: inline-block;
+}
+a{
+	text-decoration: none;
+}
+.head{
+	display: flex;
+	background-color: #fff;
+	position: fixed;
+    top: 0;
+	height: 50px;
+	width: 100%;
+	z-index: 1001;
+	box-shadow: 0 0 8px 0 rgba(0,0,0,.3);
+}
+.container{
+	display: flex;
+	height: 50px;
+	width: 100%;
+	margin-right: auto;
+    margin-left: auto;
+}
+.menu{
+	display: flex;
+	padding: 0;
+	list-style: none;
+	margin :0px;
+}
+.has-contact {
+	position: relative;
+}
+.has-contact:hover .dropdown{
+	display: inline-block;
+}
+.dropdown{
+	padding: 0;
+	list-style: none;	
+	position: absolute;
+	left: 0;
+	top: 100%;
+	width: 100%;
+	display: none;
+}
+.menu li{
+	padding: 8px 16px;
+	background-color: #eee;
+}
+
+.menu li:hover {
+	background-color: #CCC;
+}
+.logo
+{
+	width: 6%;
+	height: 50px;
+	background-attachment: fixed;
+	padding: 0px, 0px;
+	float: left;
+}
+.taskbar .menu{
+	height:50px;
+}
